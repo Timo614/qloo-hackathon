@@ -1,24 +1,3 @@
-# README
+# Arcade Augur
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is my repostiory for the arcade augur. App runs well locally. You need to manually import steam games for the logic there to work. AI was used heavily for this given the time constraint so some aspects have not so great looking code. Didn't have a chance to flesh out the tests either. Definitely a bit rough around the edges in that regards.
