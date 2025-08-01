@@ -1,0 +1,147 @@
+{
+  "home": {
+    "title": "Arcade Augur",
+    "description": "Game recommendations powered by Qloo",
+    "steamLink": "View on Steam"
+  },
+  "header": {
+    "welcome": "Welcome {{email}}"
+  },
+  "dashboard": {
+    "filters": {
+      "search_filters": "Search Filters",
+      "clear_filters": "Clear Filters"
+    },
+    "labels": {
+      "age": {
+        "any": "Any Age",
+        "everyone": "Everyone",
+        "teen": "Teen",
+        "mature": "Mature"
+      },
+      "from_year": "From Year",
+      "to_year": "To Year",
+      "windows": "Windows",
+      "linux": "Linux",
+      "macOS": "macOS"
+    },
+    "success": {
+      "public_link_copied": {
+        "title": "Public link copied!",
+        "message": "The link has been copied to your clipboard and is ready to share."
+      }
+    },
+    "placeholder": {
+      "password": "Password",
+      "email": "Email",
+      "search_fallback": "Search {{req_id}}",
+      "game_name": "Game {{appid}}",
+      "enter_search_name": "Enter search name...",
+      "search_name": "e.g., Looking for RPGs"
+    },
+    "share": {
+      "copy_link": "Copy public link",
+      "twitter": "Share on Twitter",
+      "facebook": "Share on Facebook",
+      "tweet_text": "Just discovered some amazing games: {{game_names}}! Check out my personalized recommendations 🎮" 
+    },
+    "messages": {
+      "account_pending_approval": "Account is pending approval for the waitlist",
+      "error": "Error",
+      "already_have_invite": "Already have an invite? Log in",
+      "want_access_join_waitlist_callout": "Want access? Join the waitlist",
+      "join_the_waitlist": "Join the Waitlist",
+      "login": "Log In", 
+      "join_waitlist": "Join Waitlist",
+      "waitlist_added": "✅ You’re on the waitlist! We’ll email you once you’re approved.",
+      "logged_in_redirecting": "🎉 Logged in! Redirecting…",
+      "get_started": "Get Started",
+      "call_to_action": {
+        "title": "Want your own personalized recommendations?",
+        "message": "Create your own game recommendation profile and discover games tailored to your taste!"
+      },
+      "your_seed_games": "Your Seed Games",
+      "generated_on_datestring": "Generated on {{date}}",
+      "go_home": "Go Home",
+      "loading_recommendations": "Loading recommendations...",
+      "no_search_history": "No search history yet",
+      "recent_searches": "Recent Searches",
+      "recommendation_number": "{{recommendation_amount}} recommendations",
+      "view_details": "View details",
+      "share": "Share",
+      "view_on_steam": "View on Steam",
+      "your_recommendations": "Your Recommendations",
+      "edit_name": "Edit name",
+      "save_name": "Save name",
+      "cancel_editing": "Cancel editing",
+      "generating_analysis": "Generating analysis...",
+      "generate_analysis": "Generate Analysis",
+      "ai_analysis": "AI Analysis ({{language}}):",
+      "suggestion_contribution": "Suggestion Contribution:",
+      "additional_amount": "+{{number_more}} more",
+      "similar_to_games": "Similar to games you like:",
+      "match_score": "Match Score:",
+      "no_recommendations": "No recommendations found. Try adjusting your filters.",
+      "ready_to_discover": {
+        "header": "Ready to Discover Amazing Games?",
+        "text": "Add games to your profile and click \"Get Recommendations\" to start!"
+      },
+      "include_tags": "Include Tags ({{tag_amount}})",
+      "exclude_tags": "Exclude Tags ({{tag_amount}})",
+      "tag_selection": {
+        "inclusive": "Select genres and features you want in recommendations:",
+        "exclusive": "Select genres and features to avoid in recommendations:"
+      },
+      "max_age_rating": "Max Age Rating",
+      "platform_support": "Platform Support",
+      "enhanced_game_search": "Search for games...",
+      "loading": "Loading...",
+      "getting_recommendations": "Getting Recommendations...",
+      "get_recommendations": "Get Recommendations",
+      "search_name": "Search Name (Optional)",
+      "language_for_explanations": "Language for Explanations",
+      "usage_amount": "Used {{seed_hits}} times",
+      "search_games": "Search Games",
+      "search_options": "Search Options",
+      "seed_limit": "Keep your selection focused on the vibe you're going for. Remove a game below to replace it with another.",
+      "seed_limit_full": "Selection Full",
+      "game_profile": "Your Game Profile ({{user_seeds}}/{{max_seeds}})",
+      "add_games_message": "Add games above to build your profile",
+      "remove": "Remove"
+    },
+    "errors": {
+      "enter_email_password": "Please enter both email and password",
+      "recommendations_missing": "The recommendations you're looking for might have been removed or never existed.",
+      "recommendation_not_found": "Recommendation not found",
+      "failed_to_load_recommendations": "Failed to load recommendations",
+      "copy_link_failure": {
+        "title": "Failed to copy link",
+        "message": "Please try again or copy the URL manually."
+      },
+      "failed_to_load_analysis": {
+        "title": "Failed to load analysis",
+        "message": "Please try again."
+      },
+      "update_name_failure": {
+        "title": "Failed to update name",
+        "message": "Please try again."
+      },
+      "create_search_request": {
+        "title": "No games selected",
+        "message": "Please add at least one game to your seeds first"
+      },
+      "recommendation_failure": {
+        "title": "Failed to get recommendations",
+        "message": "Please try again or check your connection."
+      },
+      "failed_to_remove_seed": "Failed to remove seed",
+      "generic_failed": "Failed to add game. Please try again.",
+      "unsupported_qloo": "Game not supported by Qloo currently.",
+      "max_seeds": "Game selection limit reached ({{max_seeds}}/5)"
+    }
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  }
+}

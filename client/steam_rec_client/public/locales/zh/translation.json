@@ -1,0 +1,146 @@
+{
+  "home": {
+    "title": "Arcade Augur",
+    "description": "由 Qloo 提供支持的游戏推荐",
+    "steamLink": "在 Steam 上查看"
+  },
+  "header": {
+    "welcome": "欢迎 {{email}}"
+  },
+  "dashboard": {
+    "filters": {
+      "search_filters": "搜索过滤器",
+      "clear_filters": "清除过滤器"
+    },
+    "labels": {
+      "age": {
+        "any": "任何年龄",
+        "everyone": "所有人",
+        "teen": "青少年",
+        "mature": "成人"
+      },
+      "from_year": "从年份",
+      "to_year": "到年份",
+      "windows": "Windows",
+      "linux": "Linux",
+      "macOS": "macOS"
+    },
+    "success": {
+      "public_link_copied": {
+        "title": "公共链接已复制！",
+        "message": "链接已复制到剪贴板，可以分享了。"
+      }
+    },
+    "placeholder": {
+      "password": "密码",
+      "email": "电子邮件",
+      "search_fallback": "搜索 {{req_id}}",
+      "game_name": "游戏 {{appid}}",
+      "enter_search_name": "输入搜索名称...",
+      "search_name": "例如，寻找 RPG"
+    },
+    "share": {
+      "copy_link": "复制公共链接",
+      "twitter": "在 Twitter 上分享",
+      "facebook": "在 Facebook 上分享",
+      "tweet_text": "刚发现了一些很棒的游戏：{{game_names}}！快来看看我的个性化推荐 🎮"
+    },
+    "messages": {
+      "error": "错误",
+      "already_have_invite": "已有邀请？登录",
+      "want_access_join_waitlist_callout": "想获得访问权限？加入候补名单",
+      "join_the_waitlist": "加入候补名单",
+      "login": "登录",
+      "join_waitlist": "加入候补名单",
+      "waitlist_added": "✅ 您已在候补名单中！我们会在您通过审核后给您发送电子邮件。",
+      "logged_in_redirecting": "🎉 已登录！正在重定向...",
+      "get_started": "开始",
+      "call_to_action": {
+        "title": "准备好获取您自己的个性化推荐了吗？",
+        "message": "创建您自己的游戏推荐档案，发现专属于您的游戏！"
+      },
+      "your_seed_games": "您的初始游戏",
+      "generated_on_datestring": "生成于 {{date}}",
+      "go_home": "返回主页",
+      "loading_recommendations": "正在加载推荐...",
+      "no_search_history": "尚无搜索历史记录",
+      "recent_searches": "最近的搜索",
+      "recommendation_number": "{{recommendation_amount}} 条推荐",
+      "view_details": "查看详情",
+      "share": "分享",
+      "view_on_steam": "在 Steam 上查看",
+      "your_recommendations": "您的推荐",
+      "edit_name": "编辑名称",
+      "save_name": "保存名称",
+      "cancel_editing": "取消编辑",
+      "generating_analysis": "正在生成分析...",
+      "generate_analysis": "生成分析",
+      "ai_analysis": "AI 分析 ({{language}}):",
+      "suggestion_contribution": "推荐贡献:",
+      "additional_amount": "再多 {{number_more}} 个",
+      "similar_to_games": "与您喜欢的游戏相似:",
+      "match_score": "匹配得分:",
+      "no_recommendations": "未找到推荐。请尝试调整您的过滤器。",
+      "ready_to_discover": {
+        "header": "准备好发现精彩游戏了吗？",
+        "text": "将游戏添加到您的个人资料中，然后点击“获取推荐”开始吧！"
+      },
+      "include_tags": "包含标签 ({{tag_amount}})",
+      "exclude_tags": "排除标签 ({{tag_amount}})",
+      "tag_selection": {
+        "inclusive": "选择您希望在推荐中包含的类型和功能：",
+        "exclusive": "选择您希望在推荐中避免的类型和功能："
+      },
+      "max_age_rating": "最大年龄评级",
+      "platform_support": "平台支持",
+      "enhanced_game_search": "搜索游戏...",
+      "loading": "正在加载...",
+      "getting_recommendations": "正在获取推荐...",
+      "get_recommendations": "获取推荐",
+      "search_name": "搜索名称（可选）",
+      "language_for_explanations": "解释语言",
+      "usage_amount": "已使用 {{seed_hits}} 次",
+      "search_games": "搜索游戏",
+      "search_options": "搜索选项",
+      "seed_limit": "将您的选择集中在您想要的氛围上。移除下面的一个游戏以替换它。",
+      "seed_limit_full": "选择已满",
+      "game_profile": "您的游戏档案 ({{user_seeds}}/{{max_seeds}})",
+      "add_games_message": "在上方添加游戏以创建您的档案",
+      "remove": "移除"
+    },
+    "errors": {
+      "enter_email_password": "请输入电子邮件和密码",
+      "recommendations_missing": "您要查找的推荐可能已被移除或从未存在过。",
+      "recommendation_not_found": "未找到推荐",
+      "failed_to_load_recommendations": "加载推荐失败",
+      "copy_link_failure": {
+        "title": "复制链接失败",
+        "message": "请重试或手动复制网址。"
+      },
+      "failed_to_load_analysis": {
+        "title": "加载分析失败",
+        "message": "请重试。"
+      },
+      "update_name_failure": {
+        "title": "更新名称失败",
+        "message": "请重试。"
+      },
+      "create_search_request": {
+        "title": "未选择游戏",
+        "message": "请先添加至少一个游戏到您的初始游戏列表中"
+      },
+      "recommendation_failure": {
+        "title": "获取推荐失败",
+        "message": "请重试或检查您的网络连接。"
+      },
+      "failed_to_remove_seed": "移除初始游戏失败",
+      "generic_failed": "添加游戏失败。请重试。",
+      "unsupported_qloo": "Qloo 目前不支持该游戏。",
+      "max_seeds": "已达到游戏选择上限 ({{max_seeds}}/5)"
+    }
+  },
+  "auth": {
+    "signIn": "登录",
+    "signOut": "退出"
+  }
+}

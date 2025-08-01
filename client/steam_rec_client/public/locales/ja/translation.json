@@ -1,0 +1,146 @@
+{
+  "home": {
+    "title": "Arcade Augur",
+    "description": "Qlooによるゲームのおすすめ",
+    "steamLink": "Steamで見る"
+  },
+  "header": {
+    "welcome": "ようこそ {{email}} 様"
+  },
+  "dashboard": {
+    "filters": {
+      "search_filters": "検索フィルター",
+      "clear_filters": "フィルターをクリア"
+    },
+    "labels": {
+      "age": {
+        "any": "すべて",
+        "everyone": "全年齢",
+        "teen": "10代向け",
+        "mature": "成人向け"
+      },
+      "from_year": "開始年",
+      "to_year": "終了年",
+      "windows": "Windows",
+      "linux": "Linux",
+      "macOS": "macOS"
+    },
+    "success": {
+      "public_link_copied": {
+        "title": "公開リンクがコピーされました！",
+        "message": "リンクがクリップボードにコピーされました。共有可能です。"
+      }
+    },
+    "placeholder": {
+      "password": "パスワード",
+      "email": "メールアドレス",
+      "search_fallback": "検索 {{req_id}}",
+      "game_name": "ゲーム {{appid}}",
+      "enter_search_name": "検索名を入力...",
+      "search_name": "例：RPGを探しています"
+    },
+    "share": {
+      "copy_link": "公開リンクをコピー",
+      "twitter": "Twitterでシェア",
+      "facebook": "Facebookでシェア",
+      "tweet_text": "素晴らしいゲームを見つけました：{{game_names}}！私のパーソナライズされたおすすめをチェックしてください🎮"
+    },
+    "messages": {
+      "error": "エラー",
+      "already_have_invite": "すでに招待状をお持ちですか？ログイン",
+      "want_access_join_waitlist_callout": "アクセスをご希望ですか？ウェイティングリストに参加",
+      "join_the_waitlist": "ウェイティングリストに参加する",
+      "login": "ログイン",
+      "join_waitlist": "ウェイティングリストに参加",
+      "waitlist_added": "✅ ウェイティングリストに追加されました！承認され次第メールでご連絡します。",
+      "logged_in_redirecting": "🎉 ログインしました！リダイレクト中…",
+      "get_started": "始める",
+      "call_to_action": {
+        "title": "あなただけのパーソナライズされたおすすめが欲しいですか？",
+        "message": "あなた好みのゲームを見つけるために、自分だけのゲームおすすめプロフィールを作成しましょう！"
+      },
+      "your_seed_games": "あなたのシードゲーム",
+      "generated_on_datestring": "{{date}}に生成",
+      "go_home": "ホームに戻る",
+      "loading_recommendations": "おすすめを読み込み中...",
+      "no_search_history": "まだ検索履歴がありません",
+      "recent_searches": "最近の検索",
+      "recommendation_number": "{{recommendation_amount}}件のおすすめ",
+      "view_details": "詳細を見る",
+      "share": "シェア",
+      "view_on_steam": "Steamで見る",
+      "your_recommendations": "あなたへのおすすめ",
+      "edit_name": "名前を編集",
+      "save_name": "名前を保存",
+      "cancel_editing": "編集をキャンセル",
+      "generating_analysis": "分析を生成中...",
+      "generate_analysis": "分析を生成",
+      "ai_analysis": "AI分析 ({{language}}):",
+      "suggestion_contribution": "提案への貢献:",
+      "additional_amount": "その他 +{{number_more}}",
+      "similar_to_games": "あなたが好きなゲームに似ています:",
+      "match_score": "一致スコア:",
+      "no_recommendations": "おすすめが見つかりませんでした。フィルターを調整してみてください。",
+      "ready_to_discover": {
+        "header": "素晴らしいゲームを発見する準備はできましたか？",
+        "text": "プロフィールにゲームを追加して、「おすすめを取得」をクリックして始めましょう！"
+      },
+      "include_tags": "タグを含める ({{tag_amount}})",
+      "exclude_tags": "タグを除外する ({{tag_amount}})",
+      "tag_selection": {
+        "inclusive": "おすすめに追加したいジャンルや機能を選択:",
+        "exclusive": "おすすめから除外したいジャンルや機能を選択:"
+      },
+      "max_age_rating": "最大年齢評価",
+      "platform_support": "プラットフォームサポート",
+      "enhanced_game_search": "ゲームを検索...",
+      "loading": "読み込み中...",
+      "getting_recommendations": "おすすめを取得中...",
+      "get_recommendations": "おすすめを取得",
+      "search_name": "検索名（任意）",
+      "language_for_explanations": "説明の言語",
+      "usage_amount": "使用回数 {{seed_hits}}回",
+      "search_games": "ゲームを検索",
+      "search_options": "検索オプション",
+      "seed_limit": "あなたが目指す雰囲気に焦点を当てて選択してください。他のゲームと置き換えるには、下のゲームを削除してください。",
+      "seed_limit_full": "選択が上限に達しました",
+      "game_profile": "あなたのゲームプロフィール ({{user_seeds}}/{{max_seeds}})",
+      "add_games_message": "プロフィールを作成するために、上にゲームを追加してください",
+      "remove": "削除"
+    },
+    "errors": {
+      "enter_email_password": "メールアドレスとパスワードの両方を入力してください",
+      "recommendations_missing": "お探しのリコメンドは削除されたか、存在しない可能性があります。",
+      "recommendation_not_found": "おすすめが見つかりませんでした",
+      "failed_to_load_recommendations": "おすすめの読み込みに失敗しました",
+      "copy_link_failure": {
+        "title": "リンクのコピーに失敗しました",
+        "message": "もう一度お試しいただくか、URLを手動でコピーしてください。"
+      },
+      "failed_to_load_analysis": {
+        "title": "分析の読み込みに失敗しました",
+        "message": "もう一度お試しください。"
+      },
+      "update_name_failure": {
+        "title": "名前の更新に失敗しました",
+        "message": "もう一度お試しください。"
+      },
+      "create_search_request": {
+        "title": "ゲームが選択されていません",
+        "message": "まず、シードとしてゲームを最低1つ追加してください"
+      },
+      "recommendation_failure": {
+        "title": "おすすめの取得に失敗しました",
+        "message": "もう一度お試しいただくか、接続を確認してください。"
+      },
+      "failed_to_remove_seed": "シードの削除に失敗しました",
+      "generic_failed": "ゲームの追加に失敗しました。もう一度お試しください。",
+      "unsupported_qloo": "現在、Qlooではこのゲームはサポートされていません。",
+      "max_seeds": "ゲーム選択の上限に達しました ({{max_seeds}}/5)"
+    }
+  },
+  "auth": {
+    "signIn": "サインイン",
+    "signOut": "サインアウト"
+  }
+}

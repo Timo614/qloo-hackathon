@@ -1,0 +1,146 @@
+{
+  "home": {
+    "title": "Arcade Augur",
+    "description": "Spielempfehlungen von Qloo",
+    "steamLink": "Auf Steam ansehen"
+  },
+  "header": {
+    "welcome": "Willkommen {{email}}"
+  },
+  "dashboard": {
+    "filters": {
+      "search_filters": "Suchfilter",
+      "clear_filters": "Filter löschen"
+    },
+    "labels": {
+      "age": {
+        "any": "Jedes Alter",
+        "everyone": "Jeder",
+        "teen": "Jugendliche",
+        "mature": "Erwachsene"
+      },
+      "from_year": "Ab Jahr",
+      "to_year": "Bis Jahr",
+      "windows": "Windows",
+      "linux": "Linux",
+      "macOS": "macOS"
+    },
+    "success": {
+      "public_link_copied": {
+        "title": "Öffentlicher Link kopiert!",
+        "message": "Der Link wurde in deine Zwischenablage kopiert und kann geteilt werden."
+      }
+    },
+    "placeholder": {
+      "password": "Passwort",
+      "email": "E-Mail",
+      "search_fallback": "Suche {{req_id}}",
+      "game_name": "Spiel {{appid}}",
+      "enter_search_name": "Suchnamen eingeben...",
+      "search_name": "z.B. Suche nach RPGs"
+    },
+    "share": {
+      "copy_link": "Öffentlichen Link kopieren",
+      "twitter": "Auf Twitter teilen",
+      "facebook": "Auf Facebook teilen",
+      "tweet_text": "Habe gerade einige tolle Spiele entdeckt: {{game_names}}! Schau dir meine personalisierten Empfehlungen an 🎮"
+    },
+    "messages": {
+      "error": "Fehler",
+      "already_have_invite": "Hast du bereits eine Einladung? Anmelden",
+      "want_access_join_waitlist_callout": "Möchtest du Zugang? Tritt der Warteliste bei",
+      "join_the_waitlist": "Tritt der Warteliste bei",
+      "login": "Anmelden",
+      "join_waitlist": "Warteliste beitreten",
+      "waitlist_added": "✅ Du bist auf der Warteliste! Wir benachrichtigen dich per E-Mail, sobald du zugelassen bist.",
+      "logged_in_redirecting": "🎉 Angemeldet! Weiterleitung…",
+      "get_started": "Loslegen",
+      "call_to_action": {
+        "title": "Möchtest du deine eigenen personalisierten Empfehlungen?",
+        "message": "Erstelle dein eigenes Spielempfehlungsprofil und entdecke Spiele, die auf deinen Geschmack zugeschnitten sind!"
+      },
+      "your_seed_games": "Deine Ausgangsspiele",
+      "generated_on_datestring": "Erstellt am {{date}}",
+      "go_home": "Zur Startseite",
+      "loading_recommendations": "Lade Empfehlungen...",
+      "no_search_history": "Noch kein Suchverlauf",
+      "recent_searches": "Letzte Suchen",
+      "recommendation_number": "{{recommendation_amount}} Empfehlungen",
+      "view_details": "Details ansehen",
+      "share": "Teilen",
+      "view_on_steam": "Auf Steam ansehen",
+      "your_recommendations": "Deine Empfehlungen",
+      "edit_name": "Namen bearbeiten",
+      "save_name": "Namen speichern",
+      "cancel_editing": "Bearbeitung abbrechen",
+      "generating_analysis": "Analyse wird erstellt...",
+      "generate_analysis": "Analyse erstellen",
+      "ai_analysis": "KI-Analyse ({{language}}):",
+      "suggestion_contribution": "Vorschlagsbeitrag:",
+      "additional_amount": "+{{number_more}} weitere",
+      "similar_to_games": "Ähnlich wie Spiele, die du magst:",
+      "match_score": "Übereinstimmung:",
+      "no_recommendations": "Keine Empfehlungen gefunden. Versuche, deine Filter anzupassen.",
+      "ready_to_discover": {
+        "header": "Bereit, tolle Spiele zu entdecken?",
+        "text": "Füge Spiele zu deinem Profil hinzu und klicke auf \"Empfehlungen erhalten\", um zu beginnen!"
+      },
+      "include_tags": "Tags einschließen ({{tag_amount}})",
+      "exclude_tags": "Tags ausschließen ({{tag_amount}})",
+      "tag_selection": {
+        "inclusive": "Wähle Genres und Merkmale aus, die du in Empfehlungen haben möchtest:",
+        "exclusive": "Wähle Genres und Merkmale aus, die in Empfehlungen vermieden werden sollen:"
+      },
+      "max_age_rating": "Maximale Altersfreigabe",
+      "platform_support": "Plattformunterstützung",
+      "enhanced_game_search": "Suche nach Spielen...",
+      "loading": "Laden...",
+      "getting_recommendations": "Empfehlungen werden abgerufen...",
+      "get_recommendations": "Empfehlungen erhalten",
+      "search_name": "Suchname (Optional)",
+      "language_for_explanations": "Sprache für Erklärungen",
+      "usage_amount": "{{seed_hits}} Mal verwendet",
+      "search_games": "Spiele suchen",
+      "search_options": "Suchoptionen",
+      "seed_limit": "Konzentriere deine Auswahl auf die gewünschte Stimmung. Entferne ein Spiel unten, um es durch ein anderes zu ersetzen.",
+      "seed_limit_full": "Auswahl voll",
+      "game_profile": "Dein Spieleprofil ({{user_seeds}}/{{max_seeds}})",
+      "add_games_message": "Füge oben Spiele hinzu, um dein Profil zu erstellen",
+      "remove": "Entfernen"
+    },
+    "errors": {
+      "enter_email_password": "Bitte gib sowohl E-Mail als auch Passwort ein",
+      "recommendations_missing": "Die gesuchten Empfehlungen wurden möglicherweise entfernt oder haben nie existiert.",
+      "recommendation_not_found": "Empfehlung nicht gefunden",
+      "failed_to_load_recommendations": "Fehler beim Laden der Empfehlungen",
+      "copy_link_failure": {
+        "title": "Fehler beim Kopieren des Links",
+        "message": "Bitte versuche es erneut oder kopiere die URL manuell."
+      },
+      "failed_to_load_analysis": {
+        "title": "Fehler beim Laden der Analyse",
+        "message": "Bitte versuche es erneut."
+      },
+      "update_name_failure": {
+        "title": "Fehler beim Aktualisieren des Namens",
+        "message": "Bitte versuche es erneut."
+      },
+      "create_search_request": {
+        "title": "Keine Spiele ausgewählt",
+        "message": "Bitte füge zuerst mindestens ein Spiel zu deinen Ausgangsspielen hinzu"
+      },
+      "recommendation_failure": {
+        "title": "Fehler beim Abrufen der Empfehlungen",
+        "message": "Bitte versuche es erneut oder überprüfe deine Verbindung."
+      },
+      "failed_to_remove_seed": "Fehler beim Entfernen des Ausgangsspiels",
+      "generic_failed": "Fehler beim Hinzufügen des Spiels. Bitte versuche es erneut.",
+      "unsupported_qloo": "Spiel wird derzeit von Qloo nicht unterstützt.",
+      "max_seeds": "Limit für Spielauswahl erreicht ({{max_seeds}}/5)"
+    }
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "signOut": "Abmelden"
+  }
+}
